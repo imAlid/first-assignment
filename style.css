@@ -8,7 +8,8 @@
 
 .banner {
    width: 1600px;
-   height: 808px;
+   height: 800px;
+
    background-image: url(images/banner/banner3.png);
 }
 
@@ -91,11 +92,9 @@
 
 /* My plan Section styles */
 
-.my-plan{
-   
-}
+.my-plan {}
 
-.plan-header{
+.plan-header {
    text-align: center;
    font-size: 40px;
    font-weight: 700;
@@ -104,40 +103,154 @@
    width: 1600px;
 }
 
-.plan-sectin{
+.plan-sectin {
    display: flex;
    margin-left: 120px;
    margin-bottom: 130px;
 }
-.plan-sectin h3{
+
+.plan-sectin h3 {
    font-size: 30px;
    font-weight: 700px;
 }
-.plan-icon{
+
+.plan-icon {
    width: 124px;
    margin-bottom: 25px;
 }
 
-.javascript{
+.javascript {
    margin-right: 50px;
    width: 300px;
    text-align: center;
 }
-.web-dev{
+
+.web-dev {
    margin-right: 50px;
    width: 300px;
    text-align: center;
 }
-.moking{
+
+.moking {
    margin-right: 50px;
    width: 300px;
    text-align: center;
 }
-.ecommerce{
+
+.ecommerce {
    margin-right: 50px;
    width: 300px;
    text-align: center;
 }
-.plan-sectin p{
+
+.plan-sectin p {
    font-size: 25px;
+}
+
+/* mindset-section Styles */
+
+.mindset-section {
+
+
+   width: 1140px;
+   height: 300px;
+   background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+   background: url(images/gradient1.png);
+   margin-bottom: 130px;
+   margin-left: 210px;
+
+
+}
+
+.mindset-section h2 {
+   color: #fff;
+   font-size: 40px;
+   padding-top: 60px;
+   margin-left: 60px;
+   margin-bottom: 20px;
+}
+
+.call-btn {
+   padding: 20px 25px;
+   border-radius: 5px;
+   border: 0;
+   font-size: 20px;
+   font-weight: 600px;
+   color: #005FAC;
+   margin-left: 60px;
+}
+
+/* footer section style */
+
+.footer {
+   display: flex;
+   width: 1400px;
+   height: 540px;
+   background: #151414;
+   color: azure;
+   padding-left: 160px;
+   padding-top: 150px;
+}
+
+.footer-text {
+   width: 485px;
+   height: 317px;
+}
+
+.footer-text h2 {
+   font-weight: 700;
+   font-size: 50px;
+   margin-bottom: 16px;
+}
+
+.footer-text p {
+   font-size: 18px;
+   
+}
+.footer-form{
+   margin-left: 350px;
+}
+
+.footer-form-header{
+   font-weight: 600;
+   font-size: 25px;
+   margin-bottom: 30px;
+}
+
+.email-box {
+   width: 340px;
+   height: 60px;
+   border-radius: 7px;
+   color: black;
+   font-size: 22px;
+}
+
+.submit-btn{
+   padding: 15px 30px;
+   border-radius: 5px;
+   border: 0;
+   font-size: 20px;
+   font-weight: 600px;
+   margin-top: 20px;
+   color: #005FAC;
+   
+   
+}
+
+.social-icon{
+   margin-top: 50px;
+   
+}
+
+.fb{
+   width: 60px;
+   margin-right: 10px;
+}
+.yt{
+   width: 60px;
+   margin-right: 10px;
+}
+.tw{
+   width: 60px;
+   margin-right: 10px;
 }
