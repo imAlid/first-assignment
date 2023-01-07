@@ -73,8 +73,6 @@
 
 }
 
-
-
 .previous-year-paragraph {
    font-size: 19px;
    line-height: 1.6;
@@ -92,7 +90,9 @@
 
 /* My plan Section styles */
 
-.my-plan {}
+.my-plan {
+   width: 1600px;
+}
 
 .plan-header {
    text-align: center;
@@ -100,7 +100,6 @@
    font-weight: 700;
    margin-top: 130px;
    margin-bottom: 50px;
-   width: 1600px;
 }
 
 .plan-sectin {
@@ -150,16 +149,12 @@
 /* mindset-section Styles */
 
 .mindset-section {
-
-
    width: 1140px;
    height: 300px;
    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
    background: url(images/gradient1.png);
    margin-bottom: 130px;
-   margin-left: 210px;
-
-
+   margin-left: 170px;
 }
 
 .mindset-section h2 {
@@ -184,7 +179,7 @@
 
 .footer {
    display: flex;
-   width: 1400px;
+   width: 1438px;
    height: 540px;
    background: #151414;
    color: azure;
@@ -205,13 +200,14 @@
 
 .footer-text p {
    font-size: 18px;
-   
+
 }
-.footer-form{
+
+.footer-form {
    margin-left: 350px;
 }
 
-.footer-form-header{
+.footer-form-header {
    font-weight: 600;
    font-size: 25px;
    margin-bottom: 30px;
@@ -225,7 +221,7 @@
    font-size: 22px;
 }
 
-.submit-btn{
+.submit-btn {
    padding: 15px 30px;
    border-radius: 5px;
    border: 0;
@@ -233,24 +229,54 @@
    font-weight: 600px;
    margin-top: 20px;
    color: #005FAC;
-   
-   
 }
 
-.social-icon{
+.social-icon {
    margin-top: 50px;
-   
+
 }
 
-.fb{
+.fb {
    width: 60px;
    margin-right: 10px;
 }
-.yt{
+
+.yt {
    width: 60px;
    margin-right: 10px;
 }
-.tw{
+
+.tw {
    width: 60px;
    margin-right: 10px;
+}
+
+/* our teams styles */
+.team-header {
+   width: 1600px;
+   font-size: 25px;
+   text-align: center;
+}
+
+.our-team img {
+   width: 220px;
+   height: 220px;
+   border-radius: 55%;
+}
+
+.our-team h2 {
+   text-align: center;
+}
+
+.our-team p {
+   text-align: center;
+}
+
+.teams {
+   display: flex;
+   gap: 150px;
+   margin-left: 160px;
+   margin-top: 50px;
+   margin-bottom: 140px;
+
 }
