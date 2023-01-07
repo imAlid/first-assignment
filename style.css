@@ -1,4 +1,4 @@
-*{
+* {
    margin: 0;
    padding: 0;
    font-family: 'Work Sans', sans-serif;
@@ -12,73 +12,132 @@
    background-image: url(images/banner/banner3.png);
 }
 
-.banner-header{
+.banner-header {
    font-size: 65px;
    font-weight: 700;
    color: aliceblue;
    margin-bottom: 24px;
 }
-.banner-paragraph{
+
+.banner-paragraph {
    font-size: 16px;
    color: aliceblue;
    margin-bottom: 32px;
 }
-.banner-text{
+
+.banner-text {
    margin-left: 51%;
    padding-top: 155px;
    width: 525px;
    text-align: end;
 }
-.banner-btn{
+
+.banner-btn {
    padding: 20px 25px;
    border-radius: 5px;
    border: 0;
    font-size: 20px;
    font-weight: 600px;
-   color: #005FAC;;
+   color: #005FAC;
+   ;
 }
 
 /* previous year Styles */
 
-.previys-year{
+.previys-year {
    margin-top: 130px;
 }
+
 .previous-year-contian {
    display: flex;
    margin-top: 130px;
 }
-.previous-year-text{
+
+.previous-year-text {
    width: 416px;
    margin-left: 117px;
    margin-top: 200px;
 }
-.fa-solid{
+
+.fa-solid {
    color: rgb(4, 183, 91);
    font-size: 20px;
    margin-right: 5px;
 }
 
-.previous-year-header{
+.previous-year-header {
    font-size: 40px;
    font-weight: 700px;
    margin-bottom: 20px;
 
 }
 
-.previous-year-paragraph{
 
-}
 
-.previous-year-paragraph{
+.previous-year-paragraph {
    font-size: 19px;
    line-height: 1.6;
    margin-bottom: 16px;
 }
-.previous-year-list{
+
+.previous-year-list {
    font-size: 19px;
    line-height: 1.9;
 }
 
-.previous-year-img{
+.previous-year-img {
    margin-left: 150px;
+}
+
+/* My plan Section styles */
+
+.my-plan{
+   
+}
+
+.plan-header{
+   text-align: center;
+   font-size: 40px;
+   font-weight: 700;
+   margin-top: 130px;
+   margin-bottom: 50px;
+   width: 1600px;
+}
+
+.plan-sectin{
+   display: flex;
+   margin-left: 120px;
+   margin-bottom: 130px;
+}
+.plan-sectin h3{
+   font-size: 30px;
+   font-weight: 700px;
+}
+.plan-icon{
+   width: 124px;
+   margin-bottom: 25px;
+}
+
+.javascript{
+   margin-right: 50px;
+   width: 300px;
+   text-align: center;
+}
+.web-dev{
+   margin-right: 50px;
+   width: 300px;
+   text-align: center;
+}
+.moking{
+   margin-right: 50px;
+   width: 300px;
+   text-align: center;
+}
+.ecommerce{
+   margin-right: 50px;
+   width: 300px;
+   text-align: center;
+}
+.plan-sectin p{
+   font-size: 25px;
 }
