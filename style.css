@@ -40,3 +40,45 @@
 
 /* previous year Styles */
 
+.previys-year{
+   margin-top: 130px;
+}
+.previous-year-contian {
+   display: flex;
+   margin-top: 130px;
+}
+.previous-year-text{
+   width: 416px;
+   margin-left: 117px;
+   margin-top: 200px;
+}
+.fa-solid{
+   color: rgb(4, 183, 91);
+   font-size: 20px;
+   margin-right: 5px;
+}
+
+.previous-year-header{
+   font-size: 40px;
+   font-weight: 700px;
+   margin-bottom: 20px;
+
+}
+
+.previous-year-paragraph{
+
+}
+
+.previous-year-paragraph{
+   font-size: 19px;
+   line-height: 1.6;
+   margin-bottom: 16px;
+}
+.previous-year-list{
+   font-size: 19px;
+   line-height: 1.9;
+}
+
+.previous-year-img{
+   margin-left: 150px;
+}
